@@ -5,7 +5,7 @@ if [[ "$USER" != 'root' ]]; then
 	exit
 fi
 ######### Make FOR @Malyc220 ##########
-apt update && apt upgrade -y && apt dist-upgrade -y
+apt update && apt upgrade -y && apt dist-upgrade -y && apt autoremove -y
 export LC_CTYPE=en_US.UTF-8 && export LC_ALL=en_US.UTF-8
 apt install build-essential -y
 wget http://www.softether-download.com/files/softether/v4.29-9680-rtm-2019.02.28-tree/Linux/SoftEther_VPN_Server/64bit_-_Intel_x64_or_AMD64/softether-vpnserver-v4.29-9680-rtm-2019.02.28-linux-x64-64bit.tar.gz
